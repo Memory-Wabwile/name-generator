@@ -3,14 +3,30 @@
     background-size: 100% 80vh;
     height: 80vh;
     width: 100%;
-
+    display: flex;
+    flex-direction: row;
 }
 .typewritter{
-    width: 70%;
+    width: 100%;
+    height:65vh;
     padding:5% 15%;
-    overflow: hidden;
+    overflow:hidden;
      border-right: rgba( 0,0,0,0.5);
-    white-space: wrap;
+    white-space: nowrap;
+    background-color: red;
+    position: relative;
+    display: block;
+
+/* animation-name:typewritter
+    animation-duration:4s
+    animation-timing-function:steps(44)
+    animation-delay;1s
+    animation-iteration-count:1
+    animation-direction:normal
+    animation fill-mode:both */
+
+animation: typewritter 10s steps(44) 1s 1 normal both,
+            blinkTextCursor 400ms steps(44) infinite normal;
 
 }
 
@@ -19,7 +35,7 @@
         width: 0;   
     }
     to{
-        width: 70% ;
+        width: 55% ;
     }
 }
 @keyframes blinkTextCursor{
