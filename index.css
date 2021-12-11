@@ -6,16 +6,21 @@
     display: flex;
     flex-direction: row;
 }
-.typewritter{
+.typewriter{
     width: 100%;
     height:65vh;
     padding:5% 15%;
     overflow:hidden;
      border-right: rgba( 0,0,0,0.5);
     white-space: nowrap;
-    background-color: red;
-    position: relative;
+   
+ position: relative;
     display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
 
 /* animation-name:typewritter
     animation-duration:4s
@@ -25,12 +30,12 @@
     animation-direction:normal
     animation fill-mode:both */
 
-animation: typewritter 10s steps(44) 1s 1 normal both,
+animation: typewriter 10s steps(144) 1s 1 normal both,
             blinkTextCursor 400ms steps(44) infinite normal;
 
 }
 
-@keyframes typewritter{
+@keyframes typewriter{
     from{
         width: 0;   
     }
@@ -45,4 +50,9 @@ animation: typewritter 10s steps(44) 1s 1 normal both,
     to{
        border-right-color: transparent; 
     }
+}
+
+.content>h1{
+    text-align: center;
+   
 }
