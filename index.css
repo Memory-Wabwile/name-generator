@@ -8,4 +8,25 @@
 .typewritter{
     width: 70%;
     padding:5% 15%;
+    overflow: hidden;
+     border-right: rgba( 0,0,0,0.5);
+    white-space: wrap;
+
+}
+
+@keyframes typewritter{
+    from{
+        width: 0;   
+    }
+    to{
+        width: 70% ;
+    }
+}
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: rgba( 0,0,0,0.5);
+    }
+    to{
+       border-right-color: transparent; 
+    }
 }
