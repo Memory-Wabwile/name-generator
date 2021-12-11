@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan names</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="main">
         <div class="typewriter">
-            <p style="font-size: 1.5em; line-height: 2em; " >Name generator is an application that takes in your birthday and calculates the day of the week that you were born, then outputs your Akan name depending on your gender. Akan names are derived from ghanian culture where children are given their first name as a day name which corresponds to the day in the week they were born. Let's find out your akan name shall we</p>
+            <p style="font-size: 2em; line-height: 2em; ">Name generator is an application that takes in your birthday
+                and calculates the day of the week that you were born, then outputs your Akan name depending on your
+                gender. Akan names are derived from ghanian culture where children are given their first name as a day
+                name which corresponds to the day in the week they were born. Let's find out your akan name shall we..
+            </p>
         </div>
     </div>
     <div class="content">
         <h1>Akan Name Generator</h1>
-        <form action="" >
-            <input type="text" id="fname" name="fname" placeholder="Your name"><br>
-            <input type="text" id="fname" name="fname" placeholder="Your Email"><br>
-            <input type="text" id="fname" name="fname" placeholder="Your Message"><br><br>
-            <button >Book my table</button>
-        </form>
+        <div class="shadow">
+            <form action="" class="forms">
+
+                <div class="frm">
+                    <label style="font-size: 2em;" for="name">Your name</label><br>
+                    <input style=" padding-right: 80%; font-size:1.5em; padding-top: .5em; padding-left: 1em; width: 100%;" type="text"
+                        id="fname" name="fname" placeholder="Name"><br><br><br>
+                    <label style="font-size: 2em;" for="Birthday">Your Birthday</label><br>
+                    <input
+                        style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em; "
+                        type="date" id="fname" name="fname" placeholder="Your birthday"><br><br>
+                    <label style="font-size: 2em;margin-left: 50%;" for="Gender">Gender</label><br>
+                    <input  style="margin-left: 42%;" type="radio" id="gender" name="gender">Male<br><br>
+                    <input style="margin-left: 42%;" type="radio" id="gender" name="gender">Female<br><br>
+                    <button style="font-size:20px;margin-left: 42%;margin-bottom:-40%;">SUBMIT</button>
+                </div>
+
+            </form>
+        </div>
 
 
+    </div>
+    <div class="footer">
+        <div>
+            <p style="padding-top:3%;color: black; font-size: 2rem; text-align: center;">Copyright@2021 Name Generator| All
+                Rights Reserved | Theme designed by Memory Wabwile</p>
+        </div>
+        <!-- <div style="width:15%; display: inline-flex; justify-content: space-around;padding-left: 40%;" class="social">
+            <a href="https://www.facebook.com/" target="_blank"> <span style="padding-right: 5%;" class="fa fa-facebook"></span></a>
+            <a href="https://www.twitter.com/"><span style="padding-right: 5%;" class="fa fa-twitter"></span></a>
+            <a href="https://www.instagram.com/"> <span style="padding-right: 5%;" class="fa fa-instagram"></span></a>
+            <a href="https://www.youtube.com/"><span style="padding-right: 5%;" class="fa fa-youtube"></span></a>
+            <a href="https://www.google.com/"> <span class="fa fa-google"></span></a>
+        </div> -->
     </div>
 
     <script src="index.js"></script>
 </body>
+
 </html>
