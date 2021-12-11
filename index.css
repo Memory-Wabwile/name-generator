@@ -1,0 +1,11 @@
+.main{
+    background-color: aqua;
+    background-size: 100% 80vh;
+    height: 80vh;
+    width: 100%;
+
+}
+.typewritter{
+    width: 70%;
+    padding:5% 15%;
+}
