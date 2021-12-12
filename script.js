@@ -12,8 +12,10 @@ let akanFemaleNames = ["Akosua" , "Adwoa" , "Abenaa" , "Akua" , "Yaa" , "Afua" ,
 // let d, CC, YY, MM, DD;
 
 function validate(){
-    var dates = document.getElementsByName("date");
+    var date = document.getElementsByName("date");
     if(document.forms.date.placeholder > 31 || document.forms.date.placeholder <= 0){
         alert("please provide a valid date i.e from 0-31 !!");
+        document.forms.date.focus() ;
+        return false;
     }
 }

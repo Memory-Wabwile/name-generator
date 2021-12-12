@@ -23,23 +23,24 @@
     <div class="content">
         <h1>Akan Name Generator</h1>
         <div class="shadow">
-            <form action="" class="forms">
-                    <label style="font-size: 2em;" for="date">Date</label><br>
-                    <input style=" padding-right: 80%; font-size:1.5em; padding-top: .5em; padding-left: 1em; width: 100%;" type="text"
-                        id="date" name="date" placeholder="DD" minlength="1" maxlength="2" required ><br><br><br>
-                    <label style="font-size: 2em;" for="month">Month</label><br>
-                    <input
-                        style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em; "
-                        type="text" id="month" name="month" placeholder="MM" minlength="1" maxlength="2" required><br><br>
-                        <label style="font-size: 2em;" for="month">Year</label><br>
-                        <input
-                            style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em; "
-                            type="text" id="year" name="year" placeholder="YYYY" minlength="4" maxlength="4" required><br><br>
-                    <label style="font-size: 2em;margin-left: 50%;" for="gender">Gender</label><br>
-                    <input  style="margin-left: 42%;" type="radio" id="gender" name="gender">Male<br><br>
-                    <input style="margin-left: 42%;" type="radio" id="gender" name="gender">Female<br><br>
-                    <button style="font-size:20px;margin-left: 42%;margin-bottom:0%; padding: 5px 18px;" id="btn" >SUBMIT</button>
-            
+            <form name="forms" action="" class="forms" onsubmit="validate();">
+                <label style="font-size: 2em;" for="date">Date</label><br>
+                <input style=" padding-right: 80%; font-size:1.5em; padding-top: .5em; padding-left: 1em; width: 100%;"
+                    type="text" id="date" name="date" placeholder="DD" minlength="1" maxlength="2" required><br><br><br>
+                <label style="font-size: 2em;" for="month">Month</label><br>
+                <input
+                    style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em; "
+                    type="text" id="month" name="month" placeholder="MM" minlength="1" maxlength="2" required><br><br>
+                <label style="font-size: 2em;" for="month">Year</label><br>
+                <input
+                    style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em; "
+                    type="text" id="year" name="year" placeholder="YYYY" minlength="4" maxlength="4" required><br><br>
+                <label style="font-size: 2em;margin-left: 50%;" for="gender">Gender</label><br>
+                <input style="margin-left: 42%;" type="radio" id="gender" name="gender">Male<br><br>
+                <input style="margin-left: 42%;" type="radio" id="gender" name="gender">Female<br><br>
+                <button style="font-size:20px;margin-left: 42%;margin-bottom:0%; padding: 6px 20px;"
+                    id="btn">SUBMIT</button>
+
 
             </form>
         </div>
@@ -48,7 +49,8 @@
     </div>
     <div class="footer">
         <div>
-            <p style="padding-top:3%;color: black; font-size: 2rem; text-align: center;">Copyright@2021 Name Generator| All
+            <p style="padding-top:3%;color: black; font-size: 2rem; text-align: center;">Copyright@2021 Name Generator|
+                All
                 Rights Reserved | Theme designed by Memory Wabwile</p>
         </div>
         <!-- <div style="width:15%; display: inline-flex; justify-content: space-around;padding-left: 40%;" class="social">
@@ -60,7 +62,9 @@
         </div> -->
     </div>
 
-    <script src="script.js">script.js</script>
+    <script src="script.js">
+        script.js
+    </script>
 </body>
 
 </html>
