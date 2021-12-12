@@ -34,7 +34,7 @@ body{
     animation-direction:normal
     animation fill-mode:both */
 
-animation: typewriter 15s steps(144 , end ) 1s 1 normal both,
+animation: typewriter 15s steps(144) 1s 1 normal both,
             blinkTextCursor 400ms steps(44) infinite normal;
 
 }
