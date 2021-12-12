@@ -10,19 +10,20 @@ body{
     flex-direction: row;
 }
 .typewriter{
-    width: 100%;
-    height:65vh;
-    padding:1% 4% 5% 3%;
-    overflow:hidden;
-     border-right: rgba( 0,0,0,0.5);
+    /* width: 0%; */
+    /* display: flex;
+    flex-direction: row; */
+    /* height:70vh; */
+    padding:1% 4% 5% 2.5%;
+   overflow: hidden;
+     border-right:rgba( 0,0,0,0.5);
     white-space: nowrap;
-   
- position: relative;
-    display: block;
-    top: 0;
+    /* position: relative;
+    display: block; */
+    /* top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 0; */
 
 
 /* animation-name:typewritter
@@ -33,7 +34,7 @@ body{
     animation-direction:normal
     animation fill-mode:both */
 
-animation: typewriter 15s steps(144) 1s 1 normal both,
+animation: typewriter 15s steps(144 , end ) 1s 1 normal both,
             blinkTextCursor 400ms steps(44) infinite normal;
 
 }
@@ -43,7 +44,7 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
         width: 0;   
     }
     to{
-        width: 55% ;
+        width: 100% ;
     }
 }
 @keyframes blinkTextCursor{
@@ -60,7 +61,8 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 135vh;
+    margin-top: -1.8em;
     
 }
 .content>h1{
@@ -68,12 +70,12 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
     padding-top:3%;
 }
 .forms{
-    padding: 5% 42% 5% 15% ;
+    padding: 2% 42% 5% 13% ;
     width: 85%;
     box-sizing: border-box;
     position: relative;
     transform: rotate(-45deg);
-    
+  
 }
 .shadow{
   width: 50%;
@@ -89,6 +91,7 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
     border: none;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 
 }
 button:hover{
@@ -98,7 +101,7 @@ button:hover{
 .footer{
     height: 15vh;
     background-color:rgb(17, 17, 204);
-    margin-top: -2em;
+    margin-top: -1.2em;
    
 }
 
