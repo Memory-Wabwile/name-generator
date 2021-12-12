@@ -9,7 +9,7 @@ let akanFemaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 //  DD - is the Day of the month
 //  mod - is the modulus function ( % )
 
-// let d, CC, YY, MM, DD;
+let d, CC, YY, MM, DD , dayOfWeek;
 
 function validate() {
   var date = document.getElementsByName("date");
@@ -26,7 +26,32 @@ function validate() {
 //     alert("Kindly select your gender !!");
 //   }
   break
-    default:
+}
+
+switch(gender){
+    case "female":
+        if(dayOfWeek==0){
+            alert("Hey there ,your akan an name is " +akanFemaleNames[0] + ", you were born on " + daysOfWeek[0]);
+        }
+        else if(dayOfWeek==1){
+            alert("Hey there ,your akan name is " +akanFemaleNames[1] + ", you were born on " + daysOfWeek[1]);
+        }
+        else if(dayOfWeek==2){
+            alert("Hey there ,your akan name is " +akanFemaleNames[2] + ", you were born on " + daysOfWeek[2]);
+        }
+        else if(dayOfWeek==3){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[3] + ", you were born on " + daysOfWeek[3]);
+        }
+        else if(dayOfWeek==4){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[4] + ", you were born on " + daysOfWeek[4]);
+        }
+        else if(daysOfWeek==5){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[5] + ", you were born on " + daysOfWeek[5]);
+        }
+        else if(daysOfWeek==6){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[6] + ", you were born on " + daysOfWeek[6]);
+        }
+
 }
 
 
