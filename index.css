@@ -63,9 +63,9 @@ animation: typewriter 10s steps(144) 1s 1 normal both,
     padding-top:3%;
 }
 .forms{
-    padding: 5% 42% 5% 20% ;
+    padding: 5% 42% 5% 15% ;
     width: 85%;
-    height: 20vh;
+  
     box-sizing: border-box;
     position: relative;
     transform: rotate(-45deg);
