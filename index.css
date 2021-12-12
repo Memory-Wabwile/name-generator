@@ -73,10 +73,10 @@ animation: typewriter 10s steps(144) 1s 1 normal both,
 }
 .shadow{
   width: 50%;
-  height: 80vh;
+  height: 90vh;
     box-shadow: 1.5rem 1.5rem 1.5rem #ddd;
-    margin-left: 20%;
-    margin-bottom: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
     transform: rotate(45deg);
     margin-top: 0%;
     
