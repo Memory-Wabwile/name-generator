@@ -9,11 +9,11 @@ let akanFemaleNames = ["Akosua" , "Adwoa" , "Abenaa" , "Akua" , "Yaa" , "Afua" ,
 //  DD - is the Day of the month 
 //  mod - is the modulus function ( % )
 
-let d, CC, YY, MM, DD;
+// let d, CC, YY, MM, DD;
 
 function validate(){
-    var genderr = document.getElementsByName("gender");
-    if(document.forms.date.value > 31 || document.forms.date.value <= 0){
-        alert(please provide a valid date i.e from 0-31)
+    var dates = document.getElementsByName("date");
+    if(document.forms.date.placeholder > 31 || document.forms.date.placeholder <= 0){
+        alert("please provide a valid date i.e from 0-31 !!");
     }
 }
