@@ -27,6 +27,9 @@ function validate() {
   }
   break
 }
+var dayOfWeek = new Date (year,month,date).getDay();
+console.log(dayOfWeek)
+
 function getGender(){
     var genderr = document.getElementsByName("gender");
     if(genderr[0].checked == true){
@@ -91,4 +94,5 @@ switch(gender){
 function findName(){
     daysOfWeek = calculateDaysOfWeek();
     getGender();
+    getDay();
 }
