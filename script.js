@@ -66,6 +66,16 @@ switch(gender){
         else if(dayOfWeek==3){
             alert("Hey there ,your akan name is  " +akanMaleNames[3] + ", you were born on " + daysOfWeek[3]);
         }
+        else if(dayOfWeek==4){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[4] + ", you were born on " + daysOfWeek[4]);
+        }
+        else if(daysOfWeek==5){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[5] + ", you were born on " + daysOfWeek[5]);
+        }
+        else if(daysOfWeek==6){
+            alert("Hey there ,your akan name is  " +akanFemaleNames[6] + ", you were born on " + daysOfWeek[6]);
+        }
+    break
 }
 
 
