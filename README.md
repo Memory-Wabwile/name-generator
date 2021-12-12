@@ -1,28 +1,26 @@
 # name-generator
-#### {Akans name generator is an application that generates your akan name depending in your birthday (day of the week that you were born)}, {12th Dec, 2021}
+#### Akans name generator is an application that generates your akan name depending in your birthday (day of the week that you were born), {12th Dec, 2021}
 https://memory-wabwile.github.io/burger_palace/
 #### By *{Wabwile Memory}*
 ## Description
-{ Akan name generator is an application that takes in your birthday and calculates the day of the week that you were born, then outputs your Akan name depending on your gender. Akan names are derived from ghanianculture where children are given their first name as aday name which corresponds to the day in the week they were born }
+ Akan name generator is an application that takes in your birthday and calculates the day of the week that you were born, then outputs your Akan name depending on your gender. Akan names are derived from ghanianculture where children are given their first name as aday name which corresponds to the day in the week they were born 
 ## Setup/Installation Requirements
  follow to clone this repository
 * application runs on any operating system
 * requires a minimum of 2gb ram
 * requires data bundles for it to run effeciently
-* 
-
-
-{This application can run on any software , android , macos or windows. it only needs installation which can be done from playstore appstore or any browser}
+ This application can run on any software , android , macos or windows. it only needs installation which can be done from playstore appstore or any browser
 ## Known Bugs
-{currently there are no identified bugs of the system }
+currently there are no identified bugs of the system 
 ## Technologies Used
-{Html
+Html
 Css
-Javascript}
+Javascript
 ## Support and contact details
-{Contact me at memorywabwile@gmail.com}
+Contact me at memorywabwile@gmail.com
 ### License
 Copyright (c) {2021} *{Wabwile Memory}*
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
