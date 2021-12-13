@@ -16,17 +16,23 @@ function validate() {
   var date = document.getElementsByName("date");
   if (document.forms.date.value > 31 || document.forms.date.value <= 0) {
     alert("Kindly provide a valid date i.e from 0 to 31 !!");
+    return false;
   }
   else if (document.forms.month.value > 12 || document.forms.month.value <= 0) {
     alert("Please provide a valid month i.e from 0 to 12 !!");
+    return false;
   }
   else if (document.forms.year.value > 2021 || document.forms.month.value <= 1900) {
     alert("Please provide the year you were born i.e from 1900 to 2021 !!");
+    return false;
   }
   else if (document.forms.male.checked==false && document.forms.female.checked==false){
     alert("Kindly select your gender !!");
+    return false;
   }
-  break
+  else{
+      return true;
+  }
 }
 // var dayOfWeek = new date (year,month,date).getDay();
 // console.log(dayOfWeek)
@@ -41,6 +47,7 @@ function calculateDayOfWeek(){
     console.log(d);
     return (Math.floor(d));
   }
+  
 
 function getGender(){
     var gender = document.getElementsByName("gender");
@@ -49,6 +56,8 @@ function getGender(){
     }
     else if (gender[1].checked == true){
         var gender = "female";
+    }else{
+        return false;
     }
 
 switch(gender){
@@ -68,10 +77,10 @@ switch(gender){
         else if(dayOfWeek==4){
             alert("Hey there ,your akan name is  " + akanFemaleNames[4] + ", you were born on " + daysOfWeek[4]);
         }
-        else if(daysOfWeek==5){
+        else if(dayOfWeek==5){
             alert("Hey there ,your akan name is  " + akanFemaleNames[5] + ", you were born on " + daysOfWeek[5]);
         }
-        else if(daysOfWeek==6){
+        else if(dayOfWeek==6){
             alert("Hey there ,your akan name is  " + akanFemaleNames[6] + ", you were born on " + daysOfWeek[6]);
         }
     break
@@ -92,19 +101,17 @@ switch(gender){
         else if(dayOfWeek==4){
             alert("Hey there ,your akan name is  " +akanFemaleNames[4] + ", you were born on " + daysOfWeek[4]);
         }
-        else if(daysOfWeek==5){
-            alert("Hey there ,your akan name is  " +akanFemaleNames[5] + ", you were born on " + daysOfWeek[5]);
+        else if(dayOfWeek==5){
+            alert("Hey there ,your akan name is  " +akanMaleNames[5] + ", you were born on " + daysOfWeek[5]);
         }
-        else if(daysOfWeek==6){
-            alert("Hey there ,your akan name is  " +akanFemaleNames[6] + ", you were born on " + daysOfWeek[6]);
+        else if(dayOfWeek==6){
+            alert("Hey there ,your akan name is  " +akanMaleNames[6] + ", you were born on " + daysOfWeek[6]);
         }
     break
-}
 
 }
 
 function findName(){
-    daysOfWeek = calculateDaysOfWeek();
+    daysOfWeek = calculateDayOfWeek;
     getGender();
-    getDay();
 }

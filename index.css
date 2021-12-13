@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    
 }
 .main{
     background-image: url("images/city.jpeg");
@@ -34,7 +35,7 @@ body{
     animation-direction:normal
     animation fill-mode:both */
 
-animation: typewriter 15s steps(144) 1s 1 normal both,
+animation: typewriter 13s steps(30) 1s 1 normal both,
             blinkTextCursor 400ms steps(44) infinite normal;
 
 }
@@ -55,6 +56,29 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
        border-right-color: transparent; 
     }
 }
+.typewriter>h1{
+    font-size: 3em; padding-left: 30%; padding-top: 5%; line-height: 1em; letter-spacing: 0.2rem; color: white;
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2%;
+}
+.left{
+    width: 45%; 
+}
+.left>p{
+    color: white;letter-spacing: 0.2rem; font-size: 2em; line-height: 1.5em; background-color: rgb(0,0,0,0.6); padding: 5%;
+}
+.right{
+    width: 45%; 
+}
+.right>p{
+    color: white; font-size: 2em;letter-spacing: 0.2rem; line-height: 1.5em; background-color: rgb(0,0,0,0.6); padding: 5%;
+}
+/* p:hover{
+    font-size: 2.5em;
+} */
 .content{
     background-image: url("images/bubble2.jpeg");
     background-size: 100% 100% ;
@@ -92,7 +116,6 @@ animation: typewriter 15s steps(144) 1s 1 normal both,
     color: white;
     font-weight: 700;
     cursor: pointer;
-
 }
 button:hover{
     padding: 4em;
@@ -102,6 +125,53 @@ button:hover{
     height: 15vh;
     background-color:rgb(17, 17, 204);
     margin-top: -1.2em;
-   
+}
+@media screen and (max-width:768px){
+    .firstdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+       width: 100%; 
+     
+    }
+    .left>p{
+        font-size: 1.5em;
+    }
+    .right{
+        width: 100%;
+    }
+    .right>p{
+        font-size: 1.5em;
+    }
+    .main{
+       height: auto;
+    }
+    .typewriter>h1{
+        font-size: 1.5em;
+        padding-left:5% ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .shadow{
+        display: none;
+    }
+    .firstdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+       width: 100%; 
+    }
+    .right{
+        width: 100%;
+    }
+    .main{
+       height: auto;
+    }
+    .typewriter>h1{
+        font-size: 2em;
+    }
 }
 
