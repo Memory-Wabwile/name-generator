@@ -115,3 +115,4 @@ function findName(){
     daysOfWeek = calculateDayOfWeek;
     getGender();
 }
+}
