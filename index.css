@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    
+    overflow-x: hidden;
 }
 .main{
     background-image: url("images/city.jpeg");
@@ -136,23 +136,26 @@ button:hover{
     }
     .left{
        width: 100%; 
-       margin: 5%;
+    
+       margin-right: 10%;
      
     }
     .left>p{
         font-size: 1.5em;
+        padding-right: 15%;
     }
     .right{
         width: 100%;
     }
     .right>p{
         font-size: 1.5em;
+        padding-right: 15%;
     }
     .main{
        height: auto;
     }
     .typewriter>h1{
-        font-size: 0px;
+        font-size: 10px;
         padding-left:5% ;
     }
     .forms{
@@ -170,6 +173,9 @@ button:hover{
     }
     .footer>p{
         font-size: 1.5em;
+    }
+    .content{
+        background-size: 80% 60%;
     }
   
 }
