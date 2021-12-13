@@ -13,9 +13,12 @@ https://memory-wabwile.github.io/name-generator/
 ## Known Bugs
 currently there are no identified bugs of the system 
 ## Technologies Used
-Html
-Css
-Javascript
+1.Html
+2.Css
+3.Javascript
+## Beahaviour Driven Development
+The user input their birthday and gender through a form and an akan name is generated for them after clicking the submit button. 
+If any field in the form is not filled or filled incorrectly i.e dates past 31st ,  there'll be an error message pop up
 ## Support and contact details
 Contact me at memorywabwile@gmail.com
 ### License
