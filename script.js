@@ -68,51 +68,51 @@ switch(gender){
     case "female":
         console.log("female")
         console.log(dayOfWeek)
-        if(dayOfWeek==0){
+        if(dayOfWeek==1){
             alert("Hey there , your akan an name is " + akanFemaleNames[0] );
         }
-        else if(dayOfWeek==1){
+        else if(dayOfWeek==2){
             alert("Hey there , your akan name is " + akanFemaleNames[1] );
         }
-        else if(dayOfWeek==2){
+        else if(dayOfWeek==3){
             alert("Hey there , your akan name is " + akanFemaleNames[2]  );
         }
-        else if(dayOfWeek==3){
+        else if(dayOfWeek==4){
             alert("Hey there , your akan name is  " + akanFemaleNames[3]);
         }
-        else if(dayOfWeek==4){
+        else if(dayOfWeek==5){
             console.log(daysOfWeek);
             alert("Hey there , your akan name is  " + akanFemaleNames[4] );
         }
-        else if(dayOfWeek==5){
+        else if(dayOfWeek==6){
             alert("Hey there , your akan name is  " + akanFemaleNames[5] );
         }
-        else if(dayOfWeek==6){
+        else if(dayOfWeek==0){
             alert("Hey there , your akan name is  " + akanFemaleNames[6] );
         }
     break
     
     case "male":
         console.log("male")
-        if(dayOfWeek==0){
+        if(dayOfWeek==1){
             alert("Hey there , your akan an name is " +akanMaleNames[0] );
         }
-        else if(dayOfWeek==1){
+        else if(dayOfWeek==2){
             alert("Hey there , your akan name is " +akanMaleNames[1] );
         }
-        else if(dayOfWeek==2){
+        else if(dayOfWeek==3){
             alert("Hey there , your akan name is " +akanMaleNames[2] );
         }
-        else if(dayOfWeek==3){
+        else if(dayOfWeek==4){
             alert("Hey there , your akan name is  " +akanMaleNames[3] );
         }
-        else if(dayOfWeek==4){
+        else if(dayOfWeek==5){
             alert("Hey there , your akan name is  " +akanFemaleNames[4]);
         }
-        else if(dayOfWeek==5){
+        else if(dayOfWeek==6){
             alert("Hey there , your akan name is  " +akanMaleNames[5] );
         }
-        else if(dayOfWeek==6){
+        else if(dayOfWeek==0){
             alert("Hey there , your akan name is  " +akanMaleNames[6]);
         }
     break
