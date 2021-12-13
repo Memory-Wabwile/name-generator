@@ -1,6 +1,7 @@
 let daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 let akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 let akanFemaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+let gender = ["male" , "female"]
 
 // Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 //  CC - is the century digits. For example 1989 has CC = 19
@@ -22,7 +23,7 @@ function validate() {
   else if (document.forms.year.value > 2021 || document.forms.month.value <= 1900) {
     alert("Please provide the year you were born i.e from 1900 to 2021 !!");
   }
-  else if (gender[0].checked==false && gender[1].checked==false){
+  else if (document.forms.male.checked==false && document.forms.female.checked==false){
     alert("Kindly select your gender !!");
   }
   break
@@ -31,11 +32,11 @@ var dayOfWeek = new Date (year,month,date).getDay();
 console.log(dayOfWeek)
 
 function getGender(){
-    var genderr = document.getElementsByName("gender");
-    if(genderr[0].checked == true){
+    var gender = document.getElementsByName("gender");
+    if(gender[0].checked == true){
         var gender = "male";
     }
-    else if (genderr[1].checked == true){
+    else if (gender[1].checked == true){
         var gender = "female";
     }
 

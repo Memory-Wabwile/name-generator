@@ -28,7 +28,7 @@
         <h1 style="font-size: 3em;" >Akan Name Generator</h1>
         <p style="text-align: center; font-size: 2em;" >Enter you Birthday</p>
         <div class="shadow">
-            <form name="forms" action="" class="forms" onsubmit="validate();">
+            <form name="forms" action="" class="forms" onsubmit="validate;">
                 <label style="font-size: 2em;" for="date">Date</label><br>
                 <input style=" padding-right: 80%; font-size:1.5em; padding-top: .5em;padding-bottom: .5em; box-shadow: 3px 3px 3px rgb(17, 17, 204); border: none; padding-left: 1em; width: 100%;"
                     type="text" id="date" name="date" placeholder="DD" value="" minlength="1" maxlength="2" required><br><br><br>
@@ -41,10 +41,10 @@
                     style="width: 180%; padding-top: .6em; padding-left: 1em; font-size:1.5em; padding-bottom: .5em;box-shadow: 3px 3px 3px rgb(17, 17, 204); border: none; "
                     type="text" id="year" name="year" placeholder="YYYY" value="" minlength="4" maxlength="4" required><br><br>
                 <label style="font-size: 2em;margin-left: 50%;" for="gender">Gender</label><br>
-                <input style="margin-left: 42%;" type="radio" id="gender" value="0" name="gender">Male<br><br>
-                <input style="margin-left: 42%;" type="radio" id="gender" value="1" name="gender">Female<br><br>
+                <input style="margin-left: 42%;" type="radio" id="male" value="0" name="gender">Male<br><br>
+                <input style="margin-left: 42%;" type="radio" id="female" value="1" name="gender">Female<br><br>
                 <button style="font-size:20px;margin-left: 42%;margin-bottom:0%; padding: 8px 23px;"
-                    id="btn">SUBMIT</button>
+                    id="btn" onclick="validate" >SUBMIT</button>
 
 
             </form>
