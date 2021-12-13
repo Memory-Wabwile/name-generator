@@ -1,11 +1,11 @@
 # name-generator
 #### Akans name generator is an application that generates your akan name depending in your birthday (day of the week that you were born), {12th Dec, 2021}
-https://memory-wabwile.github.io/burger_palace/
+https://memory-wabwile.github.io/name-generator/
 #### By *{Wabwile Memory}*
 ## Description
  Akan name generator is an application that takes in your birthday and calculates the day of the week that you were born, then outputs your Akan name depending on your gender. Akan names are derived from ghanianculture where children are given their first name as aday name which corresponds to the day in the week they were born 
 ## Setup/Installation Requirements
- follow to clone this repository
+ follow https://github.com/Memory-Wabwile/name-generator.git to clone this repository
 * application runs on any operating system
 * requires a minimum of 2gb ram
 * requires data bundles for it to run effeciently
@@ -13,9 +13,12 @@ https://memory-wabwile.github.io/burger_palace/
 ## Known Bugs
 currently there are no identified bugs of the system 
 ## Technologies Used
-Html
-Css
-Javascript
+1.Html
+2.Css
+3.Javascript
+## Beahaviour Driven Development
+The user input their birthday and gender through a form and an akan name is generated for them after clicking the submit button. 
+If any field in the form is not filled or filled incorrectly i.e dates past 31st ,  there'll be an error message pop up
 ## Support and contact details
 Contact me at memorywabwile@gmail.com
 ### License
